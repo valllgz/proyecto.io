@@ -1,0 +1,17 @@
+body {
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-image: url('foto1.png'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el área disponible */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('foto1.png');
+    background-size: 1300px 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fija la imagen de fondo en su posición */
+}

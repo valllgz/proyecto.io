@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CDBC98;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#CDBC98;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.habitacion {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.habitacion h2 {
+    background-color: beige; /* Cambia el color de fondo de la marquesina */
+    color: #333;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.habitacion p {
+    padding: 10px;
+    margin: 0;
+}
+
+.habitacion img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.habitacion a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.habitacion a:hover {
+    background-color: #555;
+}

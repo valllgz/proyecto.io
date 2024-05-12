@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.contacto-ubicacion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto, .ubicacion {
+    flex: 1;
+    text-align: center;
+}
+
+.contacto h2, .ubicacion h2 {
+    margin-bottom: 10px;
+}
+
+.contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto li {
+    margin-bottom: 10px;
+}
